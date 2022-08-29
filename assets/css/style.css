@@ -1,0 +1,77 @@
+:root 
+{
+--b:#6c1413;
+--w:grey;
+--h:'Nunito', sans-serif;
+--gras:900; 
+--normal:400;
+--fine:100;
+--value:10px;
+
+}
+
+.bleu
+{
+    background: var(--b);
+}
+
+.blanc
+{
+    background: var(--w);
+}
+
+
+section
+{
+    min-height: 100vh;
+}
+
+
+
+h1{
+    font-family: var(--h);
+    font-weight: var(--gras);
+}
+
+
+
+p{
+    font-size: var(--h);
+    font-weight: var(--light);
+}
+
+
+figure{width: 200px;
+height: 200px;
+margin: 5% auto;
+border-radius: 50%;
+overflow: hidden;
+padding-top: -80;}
+
+h2{color: snow;
+font-weight: var(--fine);
+font-size: 20px;
+text-align: center;
+font-family: var(--h);}
+
+ul{list-style: none;
+padding-left: 0;}
+
+li{text-align: center;
+display: block;
+height: 5vh;
+width: 100%;}
+
+
+a{text-decoration: none;
+color: white;}
+
+#metier, h1,h3 {color: black;
+text-align: center;}
+
+hgroup{margin-bottom: 8vh;}
+
+p#haut{text-align: center;
+    color: black;}
+
+    li{color: black;}
